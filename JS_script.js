@@ -24,3 +24,12 @@ const cars = ["Saab", "Volvo", "BMW"];
 // Date object:
 const date = new Date("2022-03-25");
 
+
+Objects
+
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+
+person.firstname;
+person[firstname];
+
