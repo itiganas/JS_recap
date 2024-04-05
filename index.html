@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>JS recap</title>
-<meta lang="en">
-
+    <title>JS recap</title>
+    <meta lang="en">
+    <!-- Add external .js file -->
+    <script src="JS_script.js"></script>
 </head>
 
 <body>
-<script src="JS_script.js"></script>
-<p>Data types in JS: </p>
 
+<h2>Data types in JS: </h2>
 <ul>
     <li>Numbers here</li>
     <p id="number"></p>
 
     <li>Strings</li>
+    <p id="stringColor"></p>
     <p id="strings"></p>
 
     <li>Booleans</li>
@@ -30,6 +31,17 @@
     <p id="date"></p>
 
 </ul>
+
+<h2>Functions</h2>
+<div id="resultFunction"></div><br>
+<div id="toCelsius"></div>
+
+<h2>Events</h2>
+<p>Click the button to display the date.</p>
+<button onclick="displayDate()">The time is?</button>
+<p id="demo"></p>
+
+
 
 </body>
 </html>
